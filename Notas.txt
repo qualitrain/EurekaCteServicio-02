@@ -1,0 +1,9 @@
+Proyecto basado en EurekaCteServicio-01, para probar Hystrix
+y sus funcionalidades de tolerancia a fallas y monitoreo
+
+Tiene las siguientes adiciones:
+
+2020-11-15 15:44:19.911[0;39m [31mERROR[0;39m [35m44920[0;39m [2m---[0;39m [2m[rticuloJaxRs2-2][0;39m [36mo.qtx.web.cteRest.CteRestArticuloJaxRs2 [0;39m [2m:[0;39m getRemoto_ArticulosJsonXml(): GET http://DESKTOP-8ICFS71:8100/rest02/webapi/articulo/todos, en Json/Xml. / javax.ws.rs.NotFoundException:HTTP 404 Not Found
+[2m2020-11-15 15:44:19.913[0;39m [33m WARN[0;39m [35m44920[0;39m [2m---[0;39m [2m[rticuloJaxRs2-2][0;39m [36mo.qtx.web.cteRest.CteRestArticuloJaxRs2 [0;39m [2m:[0;39m fallbackGetArticulosJsonXml()
+[2m2020-11-15 15:44:21.761[0;39m [32m INFO[0;39m [35m44920[0;39m [2m---[0;39m [2m[nio-9108-exec-7][0;39m [36morg.qtx.web.TestRestArticuloServlet2    [0;39m [2m:[0;39m TestRestArticuloServlet.doGet(vista:null, operacion:null
+[2m2020-11-15 15:44:21.761[0;39m [33m WARN[0;39m [35m44920[0;39m [2m---[0;39m [2m[nio-9108-exec-7][0;39m [36mo.qtx.web.cteRest.CteRestArticuloJaxRs2 [0;39m [2m:[0;39m fallbackGetArticulosJsonXml()
